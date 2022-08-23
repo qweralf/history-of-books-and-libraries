@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: #ffffff;
+}
+header{
+    width: 100%;
+     padding: 10px 0.5% 0 px 0.5%;
+      background: transparent;
+      float: left;
+    position: fixed; 
+    }
+header #logo {
+    color: #DBB47C		;
+    cursor: pointer;
+    font-size: 1.7em;
+    line-height: 45px;
+    margin-left: 40px;
+} 
+@media (min-width: 701px) {
+    #logo {
+      float: left;
+      width: 30%;
+      font-size: 1.1em;
+    }
+  
+    #about {
+      float: right;
+      width: 67%;
+    }
+  }           
+
+#about {
+    text-align: right;
+    font-size: 1em;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+#about >a { color:#DBB47C	;}
+#about >a:hover { color:#8b7c64;
+text-decoration: underline;}
+#about >a:not(last-child){
+    margin-right: 3%;
+}
+
+.fixed{
+    z-index: 5000;
+    background-color: #DBBF95;
+    border-bottom: 1px solid #765119 ;
+}
+header.fixed #logo{
+    color: #765119;
+}
+.fixed #about a {color: #765119;}
+.fixed #about a:hover {color: #423117;}
+#top {
+    width: 100%;
+    height: 350px;
+    background-image: url(https://chechnyatoday.com/images/uploads/2021/11/19/medium_44ab44d45d679b9c7a173b6d4b9cc644-1030x687.jpeg);
+    background-blend-mode: multiply;
+    background-color: #483509;
+    background-size: cover;
+    text-align: center;
+    color:#DBBF95	;
+    font-size: 3em;
+} 
+#top h1{
+padding-top: 5%;    
+}
+#top h3{
+    color: #8b7c64;
+}
+#history{
+    padding: 100px 20%;
+    width: 60%;
+    float: left;
+    background-color: #e7dbcb;
+    border-top: 2px solid #765119;
+    color:#765119;
+    font-size: 1.3em;
+    text-align: center;
+}
+#history h2{
+    font-size: 3em;
+    text-align: left;
+}
+#history p{color: #89714D;
+    text-indent: 2em;
+    margin-top: 12px;
+text-align: justify;} 
+#history img{
+    vertical-align: middle;
+width: 43%;
+margin-top: 20px;
+margin-right: 5%;
+background: #9f8964a6;
+padding: 5px;
+border: 2px solid #765119;
+
+}
